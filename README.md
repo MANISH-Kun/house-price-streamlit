@@ -27,14 +27,22 @@ The app provides not only price predictions but also simple market insights to h
 
 ## 📂 Project Structure
 House_Price_prediction/
-│── app.py
-│── requirements.txt
-│── model.joblib
-│── features.joblib
-│── dataset.csv
-│── eda.ipynb
+├── .gitignore
+├── app.py                   # Streamlit application
 
+├── Bengaluru_House_Data.csv # Raw dataset
+├── cleaned_df.csv           # Processed dataset
 
+├── eda.ipynb                # Data analysis notebook
+
+├── hdlogo.webp              # UI asset
+├── house_logo.png           # UI asset
+
+├── model_columns.joblib     # Feature columns
+├── rf_model.joblib          # Trained ML model
+
+├── README.md
+├── requirements.txt
 
 ---
 
